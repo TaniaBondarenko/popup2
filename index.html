@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!--Navigation panel with menu-button-->
   <nav class="navigation">
        <button class="nav_icon"><img src="images/photos.png" class="nav_icon_image"></button>
        <button class="nav_icon"><img src="images/mail.png" class="nav_icon_image"></button>
        <button class="nav_icon"><img src="images/bell.png" class="nav_icon_image"></button>
-       <label for="checkbox" class="popup"><img src="images/popup-button.png" class="popup_icon_image"></label>
+       <button class="nav_icon"><label for="checkbox"><img src="images/popup-button.png" class="nav_icon_image"></label></button>
        <input id="checkbox" type="checkbox">
+       
 <!--Popup content, which is shown/hidden after menu-button pressed-->
-   <ul>
+   <ul class="main_menu_icons">
        <li><a href="#"><img src="images/apps.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/blogs.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/calendar.png" class="li_icon_image"></a></li>
@@ -30,14 +30,14 @@
         <label for="show_more"><span>More</span></label>
         <input id="show_more" type="checkbox">
  <!--Popup content, which is shown/hidden after "More" button pressed-->
-     <ol>
+     <ul class="more_menu_icons">
        <li><a href="#"><img src="images/news.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/documents.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/blogs.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/promo.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/mars.png" class="li_icon_image"></a></li>
        <li><a href="#"><img src="images/files.png" class="li_icon_image"></a></li>
-     </ol>
+     </ul>
     </div>
    </ul>
   </nav>
