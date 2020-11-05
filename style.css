@@ -4,6 +4,9 @@
   height: 35px;
   padding: 5px 5px 15px 5px;
 }
+.nav {
+  list-style-type: none;
+}
 
 .nav_icon {
   margin-left: 10px;
@@ -14,7 +17,8 @@
   height: 28px;
   width: 25px;
 }
-.nav_icon:hover {
+
+.nav_icon:focus:hover {
   cursor: pointer;
   background: rgb(175, 172, 172);
 }
@@ -88,4 +92,9 @@ span {
   width: 160px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation input:checked ~ .nav_icon {
+  background-color: rgb(175, 172, 172);
+  border-radius: 10%;
 }

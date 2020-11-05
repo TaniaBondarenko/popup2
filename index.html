@@ -9,11 +9,14 @@
 </head>
 <body>
   <nav class="navigation">
-       <button class="nav_icon"><img src="images/photos.png" class="nav_icon_image"></button>
-       <button class="nav_icon"><img src="images/mail.png" class="nav_icon_image"></button>
-       <button class="nav_icon"><img src="images/bell.png" class="nav_icon_image"></button>
-       <button class="nav_icon"><label for="checkbox"><img src="images/popup-button.png" class="nav_icon_image"></label></button>
-       <input id="checkbox" type="checkbox">
+    <ul class="nav">
+     <li><button class="nav_icon"><img src="images/photos.png" class="nav_icon_image"></button></li>
+      <li><button class="nav_icon"><img src="images/mail.png" class="nav_icon_image"></button></li>
+      <li><button class="nav_icon"><img src="images/bell.png" class="nav_icon_image"></button></li>
+      <li><input id="checkbox" type="checkbox" class="icon_focus">
+      <li><button class="nav_icon"><label for="checkbox" ><img src="images/popup-button.png" class="nav_icon_image"></label></button></li>
+     </ul>
+
        
 <!--Popup content, which is shown/hidden after menu-button pressed-->
    <ul class="main_menu_icons">
@@ -29,6 +32,7 @@
     <div class="show_more">
         <label for="show_more"><span>More</span></label>
         <input id="show_more" type="checkbox">
+    
  <!--Popup content, which is shown/hidden after "More" button pressed-->
      <ul class="more_menu_icons">
        <li><a href="#"><img src="images/news.png" class="li_icon_image"></a></li>
